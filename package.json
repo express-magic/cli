@@ -1,0 +1,17 @@
+{
+  "name": "@magic/cli",
+  "version": "0.0.1",
+  "description": "Very simple cli wrapper.",
+  "main": "src/index.mjs",
+  "scripts": {
+    "start": "t -p",
+    "test": "t",
+    "format": "f -w",
+    "format:check": "f"
+  },
+  "keywords": ["cli", "magic"],
+  "author": "Jascha Ehrenreich <jascha@jaeh.at>",
+  "devDependencies": {
+    "@magic/test": "github:magic/test#mjs"
+  }
+}
